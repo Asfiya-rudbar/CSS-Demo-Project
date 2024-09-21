@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+header{
+    background-color: rgb(58, 65, 82);
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+    padding: 25px;
+
+}
+
+ul li{
+    display: inline-block;
+    margin: 1rem;
+
+    
+}
+
+main{
+    padding: 1rem;
+}
+
+p{
+    border: 1px solid  rgb(200, 206, 210);
+    background-color: rgb(222, 228, 233);
+    border-radius: 5px;
+    margin: 2rem 2rem 0 0;
+    padding: 1rem;
+
+}
+
+div{
+    border: 1px hidden;
+    padding: 25px;
+   
+}
+
+.flex-container{
+    width: 100%;
+    height: auto;
+    /* display: flex; */
+}
+
+.flex-box1{
+    width: 100px;
+    height: 100px;
+    background:rgb(70, 78, 99) ;
+    color: aliceblue;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+    margin: 10px;
+    position: absolute;
+    top: 25rem;
+    right: 95rem;
+
+}
+
+.flex-box2{
+    width: 100px;
+    height: 100px;
+    background:brown;
+    color: aliceblue;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+    margin: 10px;
+    padding: 10px;
+
+    position: absolute;
+    top: 8.5rem;
+    right: 50em;
+}
+    
+.flex-box3{
+    width: 100px;
+    height: 100px;
+    background:rgb(70, 78, 99) ;
+    color: aliceblue;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+    margin: 10px;
+    position: absolute;
+    top: 25rem;
+    right: 25rem;
+
+
+}
+
+.para{
+    border: 1px solid  rgb(200, 206, 210);
+    background-color: rgb(222, 228, 233);
+    color: brown;
+    border-radius: 5px;
+    margin: 2rem 2rem 0 0;  
+    padding: 1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1.5px 1.5px 7px ;
+    font-size: 1.5rem;
+
+}
+
+a{
+    color: rgb(14, 167, 227);
+}
+
+footer{
+    background-color: rgb(69, 77, 97);
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+    margin:0%;
+    padding:2rem;
+
+
+
+}
+
+   
